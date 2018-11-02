@@ -13,6 +13,7 @@ body {
 
 .name {
     font-weight: 700;
+    color: #ff0000;
 }
 
 li {
@@ -23,8 +24,9 @@ li {
     background-color: #f0ffff;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 3px;
-    box-shadow: 3px #000000;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 12px;
 }
 
 .brief {
@@ -32,14 +34,30 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     box-shadow: 3px #000000;
     text-align: justify;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 12px;
+}
+
+.title h3 {
+    background-color: #f0ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px grey;
 }
 
 header h2 {
     text-align: center;
-
+    border: 2px solid #000000;
+    padding: 8px;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
 }
 
 footer {
@@ -52,6 +70,7 @@ footer {
 .family-name {
     font-style: italic;
     font-size: 15px;
+    color: #ff0000
 }
 
 @media only screen and (max-width: 982px){
